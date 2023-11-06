@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: larger;
+}
+
+#heading{
+    padding: 20px;
+    padding-bottom: 30px;
+    background-color: aqua;
+    width: 100%;
+    text-align: center;
+
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+
+.fieldcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fieldcontainer input, textarea{
+    width: 300px;
+}
+
+input, textarea, button{
+  box-sizing: border-box;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+
+  margin-bottom: 3%;
+}
+
+.namecontainer input{
+    width: 150px;
+}
+
+textarea{
+    height: 200px;
+    text-align: start;
+    line-height: 1;
+}
+
+button{
+    width: 100px;
+    background-color: rgb(222, 243, 245);
+}
+
+button:hover{
+    background-color: aqua;
+}
